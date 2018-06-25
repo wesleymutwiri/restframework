@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import generics 
-from .serializer import BucketlistSerializer
+from .serializers import BucketlistSerializer
 from .models import Bucketlist
 
 # Create your views here.

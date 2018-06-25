@@ -1,5 +1,5 @@
 from django.conf.urls import url,include
-from . import views
+from .views import CreateView
 from django.contrib import admin
 from django.conf.urls.static import static
 from django.conf import settings
