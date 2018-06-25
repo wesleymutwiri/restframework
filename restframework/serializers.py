@@ -12,3 +12,4 @@ class BucketlistSerializer(serializers.ModelSerializer):
         model = Bucketlist
         fields = ('id','name', 'date_created', 'date_modified')
         read_only_fields = ('date_created','date_modified')
+        
