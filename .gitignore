@@ -3,4 +3,4 @@ virtual/
 *.pyc
 .env
 migrations/
-
+db.sqlite3
