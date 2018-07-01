@@ -5,6 +5,7 @@ from django.conf.urls.static import static
 from django.conf import settings
 from rest_framework.urlpatterns import format_suffix_patterns
 urlpatterns = [
+    url(r'^auth/', include('rest_framework.urls', namespace='rest_framework')),
     url(r'^bucketlist/$', CreateView.as_view(), name= 'create'),
     url(r'^bucketlist/(?P<pk>[0-9]+)/$', DetailsView.as_view(), name='details'),
 ]
